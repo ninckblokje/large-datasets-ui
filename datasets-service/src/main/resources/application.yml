@@ -1,0 +1,10 @@
+micronaut:
+  application:
+    name: datasetsService
+  server:
+    cors:
+      enabled: true
+      configurations:
+        web:
+          allowedOrigins:
+            - http://localhost:.*
